@@ -1,0 +1,6 @@
+{
+  "@context": "https://w3id.org/security/v2",
+  "id": "did:pcf.pw:1A8",
+  "assertionMethod": [ "did:pcf.pw:1A8#web" ],
+  "authentication": [ "did:pcf.pw:1A8#web" ]
+}
