@@ -1,18 +1,10 @@
 {
-  "@context": "https://w3id.org/security/v2",
-  "id": "did:pcf.pw:1A8",
-  "assertionMethod": [ 
-    {
-      "id": "did:web:pcf.pw:1A8#web",
-      "controller": "did:web:pcf.pw:1A8",
-      "publicKeyBase58": "oqpWYKaZD9M1Kbe94BVXpr8WTdFBNZyKv48cziTiQUeuhm7sBhCABMyYG4kcMrseC68YTFFgyhiNeBKjzdKk9MiRWuLv5H4FFujQsQK2KTAtzU8qTBiZqBHMmnLF4PL7Ytu"
-    }
-   ],
-  "authentication": [ 
-    {
-      "id": "did:web:pcf.pw:1A8#web",
-      "controller": "did:web:pcf.pw:1A8",
-      "publicKeyBase58": "oqpWYKaZD9M1Kbe94BVXpr8WTdFBNZyKv48cziTiQUeuhm7sBhCABMyYG4kcMrseC68YTFFgyhiNeBKjzdKk9MiRWuLv5H4FFujQsQK2KTAtzU8qTBiZqBHMmnLF4PL7Ytu"
-    }
-   ]
+  "id": "did:web:pcf.pw:1A8#web",
+  "controller": {
+    "@context": "https://w3id.org/security/v2",
+    "id": "did:pcf.pw:1A8",
+    "assertionMethod": [ "did:pcf.pw:1A8#web" ],
+    "authentication": [ "did:pcf.pw:1A8#web" ]
+  },
+  "publicKeyBase58": "oqpWYKaZD9M1Kbe94BVXpr8WTdFBNZyKv48cziTiQUeuhm7sBhCABMyYG4kcMrseC68YTFFgyhiNeBKjzdKk9MiRWuLv5H4FFujQsQK2KTAtzU8qTBiZqBHMmnLF4PL7Ytu"
 }
