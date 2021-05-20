@@ -24,8 +24,8 @@
       {"path": "credentialSubject.personalInformation.birthDate", "encoder": "isodate-1900-base32"},
       {"path": "credentialSubject.personalInformation.gender", "encoder": "string"},
       {"path": "proof.created", "encoder": "isodatetime-epoch-base32"},
-      {"path": "proof.proofValue", "encoder": "base64-base32"},
-      {"path": "proof.verificationMethod", "encoder": "did:web"}
+      {"path": "proof.verificationMethod", "encoder": "did:web"},
+      {"path": "proof.proofValue", "encoder": "base64-base32"}
     ],
     "template": {
       "@context": [
@@ -84,8 +84,8 @@
       {"path": "credentialSubject.personalInformation.birthDate", "encoder": "isodate-1900-base32"},
       {"path": "credentialSubject.personalInformation.gender", "encoder": "string"},
       {"path": "proof.created", "encoder": "isodatetime-epoch-base32"},
-      {"path": "proof.proofValue", "encoder": "base64-base32"},
-      {"path": "proof.verificationMethod", "encoder": "did:web"}
+      {"path": "proof.verificationMethod", "encoder": "did:web"},
+      {"path": "proof.proofValue", "encoder": "base64-base32"}
     ],
     "template": {
       "@context": [
@@ -146,8 +146,8 @@
       {"path": "credentialSubject.personalInformation.birthDate", "encoder": "isodate-1900-base32"},
       {"path": "credentialSubject.personalInformation.gender", "encoder": "string"},
       {"path": "proof.created", "encoder": "isodatetime-epoch-base32"},
-      {"path": "proof.proofValue", "encoder": "base64-base32"},
-      {"path": "proof.verificationMethod", "encoder": "did:web"}
+      {"path": "proof.verificationMethod", "encoder": "did:web"},
+      {"path": "proof.proofValue", "encoder": "base64-base32"}
     ],
     "template": {
       "@context": [
