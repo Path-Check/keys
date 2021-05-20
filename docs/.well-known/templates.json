@@ -1,4 +1,4 @@
-export default {
+{
   "dgc.test:1": {
     "columns": [
       {"path": "issuanceDate", "encoder": "isodatetime-epoch-base32"},
@@ -182,4 +182,4 @@ export default {
       }
     }
   }
-};
+}
