@@ -107,12 +107,15 @@
       {"path": "id", "encoder": "urn:uvci"},
       {"path": "issuerName", "encoder": "string"},
       {"path": "countryOfTest", "encoder": "string"},
-      {"path": "infectionInformation.validFrom", "encoder": "isodate-1900-base32"},
-      {"path": "infectionInformation.validUntil", "encoder": "isodate-1900-base32"},
       {"path": "infectionInformation.diseaseRecoveredFrom", "encoder": "string"},
-      {"path": "infectionInformation.dateFirstPositive", "encoder": "isodate-1900-base32"}
+      {"path": "infectionInformation.dateFirstPositive", "encoder": "isodate-1900-base32"},
+      {"path": "infectionInformation.validFrom", "encoder": "isodate-1900-base32"},
+      {"path": "infectionInformation.validUntil", "encoder": "isodate-1900-base32"}
     ],
     "template": {
+      "@context": [
+        "https://w3id.org/dgc/v1"
+      ],
       "type": "DGCProofOfRecovery",
       "infectionInformation": {
         "@context": [
