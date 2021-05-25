@@ -17,13 +17,13 @@
       {"path": "issuer", "encoder": "did:web"},
       {"path": "id", "encoder": "string"},
       {"path": "proof.created", "encoder": "isodatetime-epoch-base32"},
-      {"path": "proof.proofValue", "encoder": "base64-base32"},
-      {"path": "proof.verificationMethod", "encoder": "did:web"}
+      {"path": "proof.verificationMethod", "encoder": "did:web"},
+      {"path": "proof.proofValue", "encoder": "base64-base32"}
     ],
     "template": {
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/pathogen/v1",
+        "https://w3id.org/dgc/v1",
         "https://w3id.org/security/bbs/v1"
       ],
       "type": [
@@ -31,12 +31,12 @@
       ],
       "credentialSubject": {
         "@context": [
-          "https://w3id.org/pathogen/v1"
+          "https://w3id.org/dgc/v1"
         ],
         "type": "DGCCertificate",
         "personalInformation": {
           "@context": [
-              "https://w3id.org/pathogen/v1"
+              "https://w3id.org/dgc/v1"
           ],
           "type": "DGCSubject"
         }
@@ -64,12 +64,12 @@
     ],
     "template": {
       "@context": [
-        "https://w3id.org/pathogen/v1"
+        "https://w3id.org/dgc/v1"
       ],
       "type": "DGCProofOfCovidTest",
       "testInformation": {
         "@context": [
-            "https://w3id.org/pathogen/v1"
+            "https://w3id.org/dgc/v1"
         ],          
         "type": "DGCTestInformation"
       }
@@ -91,12 +91,12 @@
     ],
     "template": {
       "@context": [
-        "https://w3id.org/pathogen/v1"
+        "https://w3id.org/dgc/v1"
       ],
       "type": "DGCProofOfVaccination",
       "vaccinationInformation": {
         "@context": [
-            "https://w3id.org/pathogen/v1"
+            "https://w3id.org/dgc/v1"
         ],          
         "type": "DGCVaccinationInformation"
       }
@@ -116,7 +116,7 @@
       "type": "DGCProofOfRecovery",
       "infectionInformation": {
         "@context": [
-            "https://w3id.org/pathogen/v1"
+            "https://w3id.org/dgc/v1"
         ],          
         "type": "DGCInfectionInformation"
       }
