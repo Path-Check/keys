@@ -51,7 +51,7 @@
     "columns": [
       {"path": "id", "encoder": "urn:uvci"},
       {"path": "issuerName", "encoder": "string"},
-      {"path": "testInformation.countryOfTestAdminstration", "encoder": "string"},
+      {"path": "countryOfTestAdminstration", "encoder": "string"},
       {"path": "testInformation.testType", "encoder": "string"},
       {"path": "testInformation.testResult", "encoder": "string"},
       {"path": "testInformation.testCenter", "encoder": "string"},
