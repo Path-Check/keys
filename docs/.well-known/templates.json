@@ -55,7 +55,7 @@
       {"path": "testInformation.testType", "encoder": "string"},
       {"path": "testInformation.testResult", "encoder": "string"},
       {"path": "testInformation.testCenter", "encoder": "string"},
-      {"path": "testInformation.diseaseTestedFrom", "encoder": "integer-base32"},
+      {"path": "testInformation.diseaseTestedFrom", "encoder": "string"},
       {"path": "testInformation.testName", "encoder": "string"},
       {"path": "testInformation.testManufacturer", "encoder": "string"},
       {"path": "testInformation.sampleCollectionDateTime", "encoder": "isodatetime-epoch-base32"}
@@ -78,7 +78,7 @@
       {"path": "id", "encoder": "urn:uvci"},
       {"path": "issuerName", "encoder": "string"},
       {"path": "countryOfVaccination", "encoder": "string"},
-      {"path": "vaccinationInformation.diseaseProtectedFrom", "encoder": "integer-base32"},
+      {"path": "vaccinationInformation.diseaseProtectedFrom", "encoder": "string"},
       {"path": "vaccinationInformation.prophylaxis", "encoder": "string"},
       {"path": "vaccinationInformation.dateOfVaccination", "encoder": "isodate-1900-base32"},
       {"path": "vaccinationInformation.dose", "encoder": "integer-base32"},
@@ -104,7 +104,7 @@
       {"path": "id", "encoder": "urn:uvci"},
       {"path": "issuerName", "encoder": "string"},
       {"path": "countryOfTest", "encoder": "string"},
-      {"path": "infectionInformation.diseaseRecoveredFrom", "encoder": "integer-base32"},
+      {"path": "infectionInformation.diseaseRecoveredFrom", "encoder": "string"},
       {"path": "infectionInformation.dateFirstPositive", "encoder": "isodate-1900-base32"},
       {"path": "infectionInformation.validFrom", "encoder": "isodate-1900-base32"},
       {"path": "infectionInformation.validUntil", "encoder": "isodate-1900-base32"}
