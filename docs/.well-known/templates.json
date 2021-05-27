@@ -58,7 +58,7 @@
       {"path": "testInformation.diseaseTestedFrom", "encoder": "integer-base32"},
       {"path": "testInformation.testName", "encoder": "string"},
       {"path": "testInformation.testManufacturer", "encoder": "string"},
-      {"path": "testInformation.sampleCollectionDateTime", "encoder": "isodatetime-epoch-base32"},
+      {"path": "testInformation.sampleCollectionDateTime", "encoder": "isodatetime-epoch-base32"}
     ],
     "template": {
       "@context": [
