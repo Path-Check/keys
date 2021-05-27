@@ -84,7 +84,6 @@
       {"path": "vaccinationInformation.dateOfVaccination", "encoder": "isodate-1900-base32"},
       {"path": "vaccinationInformation.dose", "encoder": "integer-base32"},
       {"path": "vaccinationInformation.totalDoses", "encoder": "integer-base32"},
-      {"path": "vaccinationInformation.code", "encoder": "string"},
       {"path": "vaccinationInformation.marketingAuthHolder", "encoder": "string"},
       {"path": "vaccinationInformation.medicinalProductName", "encoder": "string"}
     ],
