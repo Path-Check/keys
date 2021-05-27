@@ -59,7 +59,6 @@
       {"path": "testInformation.testName", "encoder": "string"},
       {"path": "testInformation.testManufacturer", "encoder": "string"},
       {"path": "testInformation.sampleCollectionDateTime", "encoder": "isodatetime-epoch-base32"},
-      {"path": "testInformation.testResultDate", "encoder": "isodatetime-epoch-base32"},
       {"path": "testInformation.testValidatorId", "encoder": "string"}
     ],
     "template": {
