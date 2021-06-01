@@ -1,0 +1,18 @@
+{
+  "@context": "https://w3id.org/security/v2",
+  "id": "did:web:PCF.PW:1A11",
+  "assertionMethod": [
+    {
+      "id": "did:web:PCF.PW:1A11#WEB",
+      "controller": "did:web:PCF.PW:1A11",
+      "publicKeyBase58": "mfeqMx3gjsRzSK9s822VykT4Hn5RbusuzLJFz6xo7SfWWd8a8icMtiGDTVU85EQT1EKtXZEpGHXqRNz47DPmurRoBLEFMC9wbHgsBDbWfyMmJvEBKu9qwUziZKZdtmp8g8r"
+    }
+  ],
+  "authentication": [
+    {
+      "id": "did:web:PCF.PW:1A11#WEB",
+      "controller": "did:web:PCF.PW:1A11",
+      "publicKeyBase58": "mfeqMx3gjsRzSK9s822VykT4Hn5RbusuzLJFz6xo7SfWWd8a8icMtiGDTVU85EQT1EKtXZEpGHXqRNz47DPmurRoBLEFMC9wbHgsBDbWfyMmJvEBKu9qwUziZKZdtmp8g8r"
+    }
+  ]
+}
