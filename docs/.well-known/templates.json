@@ -14,10 +14,10 @@
       
       {"path": "issuanceDate", "encoder": "isodatetime-epoch-base32"},
       {"path": "expirationDate", "encoder": "isodatetime-epoch-base32"},
-      {"path": "issuer", "encoder": "string", "prefix": ["did:web:PCF.PW/"]},
+      {"path": "issuer", "encoder": "string", "prefix": ["did:web:PCF.PW:"]},
       {"path": "id", "encoder": "string"},
       {"path": "proof.created", "encoder": "isodatetime-epoch-base32"},
-      {"path": "proof.verificationMethod", "encoder": "string", "prefix": ["did:web:PCF.PW/"]},
+      {"path": "proof.verificationMethod", "encoder": "string", "prefix": ["did:web:PCF.PW:"]},
       {"path": "proof.proofValue", "encoder": "base64-base32"}
     ],
     "template": {
