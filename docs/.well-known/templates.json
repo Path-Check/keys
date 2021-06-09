@@ -1,8 +1,8 @@
 {
   "dgc:1": {
     "columns": [
-      {"path": "credentialSubject.personalInformation.familyName", "encoder": "string-base32"},
-      {"path": "credentialSubject.personalInformation.givenName", "encoder": "string-base32"},
+      {"path": "credentialSubject.personalInformation.familyName", "encoder": "string"},
+      {"path": "credentialSubject.personalInformation.givenName", "encoder": "string"},
       {"path": "credentialSubject.personalInformation.stdFamilyName", "encoder": "string"},
       {"path": "credentialSubject.personalInformation.stdGivenName", "encoder": "string"},
       {"path": "credentialSubject.personalInformation.birthDate", "encoder": "isodate-1900-base32"},
