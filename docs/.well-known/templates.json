@@ -56,7 +56,7 @@
       {"path": "testInformation.testResult", "encoder": "string", "compact": ["260415000", "260373001"]},
       {"path": "testInformation.testCenter", "encoder": "string"},
       {"path": "testInformation.diseaseTestedFrom", "encoder": "string", "compact": ["840539006"] },
-      {"path": "testInformation.testName", "encoder": "string-base32"},
+      {"path": "testInformation.testName", "encoder": "string"},
       {"path": "testInformation.testManufacturer", "encoder": "string"},
       {"path": "testInformation.sampleCollectionDateTime", "encoder": "isodatetime-epoch-base32"}
     ],
