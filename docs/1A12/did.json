@@ -4,8 +4,7 @@
     "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
   "id": "did:web:PCF.PW:1A12",
-  "type": "Ed25519VerificationKey2020",
-  "assertionMethod": [
+  "verificationMethod": [
     {
       "id": "did:web:PCF.PW:1A12#WEB",
       "type": "Ed25519VerificationKey2020",
@@ -14,11 +13,15 @@
     }
   ],
   "authentication": [
-    {
-      "id": "did:web:PCF.PW:1A12#WEB",
-      "type": "Ed25519VerificationKey2020",
-      "controller": "did:web:PCF.PW:1A12",
-      "publicKeyMultibase": "zGhTGvJH58518mWd5PAWnAVLx3dArnmQNmPqhhqmhuEsz"
-    }
+    "did:web:PCF.PW:1A12#WEB"
+  ], 
+  "assertionMethod": [
+    "did:web:PCF.PW:1A12#WEB"
+  ],
+  "capabilityDelegation": [
+    "did:web:PCF.PW:1A12#WEB"
+  ], 
+  "capabilityInvocation": [
+    "did:web:PCF.PW:1A12#WEB"
   ]
 }
