@@ -1,4 +1,53 @@
 {
+  "dgc:2": {
+    "columns": [
+      {"path": "credentialSubject.personalInformation.familyName", "encoder": "string"},
+      {"path": "credentialSubject.personalInformation.givenName", "encoder": "string"},
+      {"path": "credentialSubject.personalInformation.stdFamilyName", "encoder": "string"},
+      {"path": "credentialSubject.personalInformation.stdGivenName", "encoder": "string"},
+      {"path": "credentialSubject.personalInformation.birthDate", "encoder": "isodate-1900-base32"},
+      {"path": "credentialSubject.personalInformation.gender", "encoder": "string"},
+
+      {"path": "credentialSubject.proofOfVaccination", "encoder": "array", "encoder_param": "dgc.vaxComponent:1" },
+      {"path": "credentialSubject.proofOfCovidTest", "encoder": "array", "encoder_param": "dgc.testComponent:1" },
+      {"path": "credentialSubject.proofOfRecovery", "encoder": "array", "encoder_param": "dgc.recvComponent:1" },
+      
+      {"path": "issuanceDate", "encoder": "isodatetime-epoch-base32"},
+      {"path": "expirationDate", "encoder": "isodatetime-epoch-base32"},
+      {"path": "issuer", "encoder": "string", "prefix": ["did:web:PCF.PW:"]},
+      {"path": "id", "encoder": "string"},
+      {"path": "proof.created", "encoder": "isodatetime-epoch-base32"},
+      {"path": "proof.verificationMethod", "encoder": "string", "prefix": ["did:web:PCF.PW:"]},
+      {"path": "proof.proofValue", "encoder": "string"}
+    ],
+    "template": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/dgc/v1",
+        "https://w3id.org/security/bbs/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "credentialSubject": {
+        "@context": [
+          "https://w3id.org/dgc/v1"
+        ],
+        "type": "DGCCertificate",
+        "personalInformation": {
+          "@context": [
+              "https://w3id.org/dgc/v1"
+          ],
+          "type": "DGCSubject"
+        }
+      },
+      "proof": {
+        "type": "BbsBlsSignature2020",
+        "proofPurpose": "assertionMethod"
+      }
+    }
+  },
+  
   "dgc:1": {
     "columns": [
       {"path": "credentialSubject.personalInformation.familyName", "encoder": "string"},
