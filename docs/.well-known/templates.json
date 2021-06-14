@@ -18,7 +18,7 @@
       {"path": "id", "encoder": "string"},
       {"path": "proof.created", "encoder": "isodatetime-epoch-base32"},
       {"path": "proof.verificationMethod", "encoder": "string", "prefix": ["did:web:PCF.PW:"]},
-      {"path": "proof.proofValue", "encoder": "string"}
+      {"path": "proof.proofValue", "encoder": "multibase-base36"}
     ],
     "template": {
       "@context": [
